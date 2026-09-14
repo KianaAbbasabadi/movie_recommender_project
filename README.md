@@ -19,7 +19,7 @@ A clean and beginner-friendly movie recommender built with **Python**, **scikit-
 
 <div align="center">
 
-<img src="assets/cinematch-dashboard.jpg" alt="CineMatch Streamlit Dashboard" width="100%" />
+<img src="movie_recommender_project/assets/cinematch-dashboard.png" alt="CineMatch Streamlit Dashboard" width="100%" />
 
 </div>
 
@@ -85,14 +85,16 @@ The recommender uses `Genre`, `Director`, `Star1`, `Star2`, and `Star3` as the m
 movie_recommender_project/
 │
 ├── README.md
-├── assets/
-│   └── cinematch-dashboard.jpg
+├── .idea/
 │
 └── movie_recommender_project/
     ├── app.py
     ├── recommender.py
     ├── requirements.txt
     ├── .gitignore
+    │
+    ├── assets/
+    │   └── cinematch-dashboard.png
     │
     ├── data/
     │   └── imdb_top_1000.csv
